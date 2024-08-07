@@ -3,12 +3,14 @@ public class Ques_3 {
         int n = 4;
 
         // outer loop
-        for (int i=1; i<=n; i++) {
+        for (int i = 1; i <= n; i++) {
             // inner loop
 
-            for (int j=1; j<=i; j++)
-                System.out.print("*" );
+            for (int j = 1; j <= i; j++) { // nested for loop 
+                System.out.print("*");
+
+            }
+            System.out.println();
         }
-        System.out.println( );
     }
 }
